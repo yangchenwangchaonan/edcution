@@ -1,0 +1,38 @@
+.paperQuality {
+  
+}
+
+.paperQuality-content {
+  width: 940px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+}
+
+.paperQuality-content-panel {
+  margin: 20px 0 0;
+  box-shadow: 0 0 4px 0 #E9E9F2;
+  border-radius: 6px;
+}
+
+.paperQuality-content-wrapper {
+  width: 100%;
+  margin: 20px 0 0;
+}
+
+.paperQuality-content-wrapper-side {
+  width: 176px;
+  float: left;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 0 4px 0 #E9E9F2;
+  border-radius: 6px;
+  overflow:hidden;
+  padding-bottom:9999px;
+  margin-bottom:-9999px;
+}
+
+.paperQuality-content-wrapper-right {
+  width: 744px;
+  height: 100%;
+  margin-left: 196px;
+}

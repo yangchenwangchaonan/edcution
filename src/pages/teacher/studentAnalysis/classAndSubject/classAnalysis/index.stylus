@@ -1,0 +1,257 @@
+html,body {
+  scroll-behavior: smooth;
+}
+.classAnalysis {
+  .classAnalysisPanelTitle {
+    padding: 24px 30px 0px;
+    font-size: 18px;
+    color: #383B57;
+  }
+  .classAnalysisKindWrapper {
+    //   height: 447px;
+    position: absolute;
+    right: 31px;
+    top: 22px;
+    .classAnalysisKind {
+      display inline-block;
+      margin: 0 0 0 18px;
+      &:nth-child(1) {
+        .classAnalysisKind-circle {
+          background: #FF8937;
+        }
+      }
+      &:first-child {
+        margin: 0;
+      }
+      .classAnalysisKind-circle {
+        background: #4B70FF;
+        border-radius: 100px;
+        width: 16px;
+        height 16px;
+        display inline-block;
+        position: relative;
+        top: 3px;
+        right: 1px;
+      }
+      .classAnalysisKind-text {
+        font-size: 14px;
+        color: #A2AFCD;
+      }
+    }
+  }
+  .classAnalysisPanel-charts {
+    padding: 0 16px;
+    height 300px;
+  }
+  .classAnalysisPanel {
+    padding: 0 0 42px 0;
+    position relative;
+  }
+  .classAnalysis-tooltip {
+    font-size: 14px;
+    color: #5F6D91;
+    width: 150px;
+    border: 1px solid rgba(162,175,205,0.60);
+    border-radius: 6px;
+    background: #fff;
+    p {
+      padding: 2px 0 2px 4px;
+      margin: 0 0 9px 0;
+      white-space: initial!important;
+    }
+    .classAnalysis-tooltip-title {
+      background: #ECEFF5;
+      padding: 9px 0 9px 4px;
+      margin: 0 0 9px 0;
+      border-radius: 6px 6px 0 0;
+    }
+  }
+  .classAnalysisInfo {
+    box-shadow: 0 0 4px 0 #E9E9F2;
+    border-radius: 6px;
+    background: #fff;
+    .classAnalysisInfo-info-wrapper {
+      overflow: hidden;
+      padding: 31px 12px 46px;
+      border-bottom: 1px solid #EBEBEB;
+      .classAnalysisInfo-info-item {
+        // border-right: 1px dotted #ccc; 
+        position: relative;
+        width: 25%;
+        text-align: center;
+        float left;
+        &:nth-child(n+5) {
+          margin: 42px 0 0 0;
+        }
+        .classAnalysisInfo-info-item-text {
+          font-size: 14px;
+          color: #A2AFCD;
+        }
+        .classAnalysisInfo-info-item-title {
+          font-size: 30px;
+          color: #000;
+          margin: 19px 0 0 0;
+        }
+        .classAnalysisInfo-info-item-line {
+          position: absolute;
+          right: 0;
+          top: 1px;
+          height: 60px;
+          border-right: 1px dotted rgba(162,175,205,0.6);
+        }
+        &:nth-child(4n) {
+          .classAnalysisInfo-info-item-line {
+            display none;
+          }
+        }
+      }
+    }
+    .classAnalysisInfo-brief {
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      font-size: 12px;
+      color: #A2AFCD;
+      padding: 15px 20px 14px;
+    }
+  }
+  .classAnalysisOnlineRate {
+    background: #fff;
+    box-shadow: 0 0 4px 0 #E9E9F2;
+    border-radius: 6px;
+    margin: 14px 0 0 0;
+    .classAnalysisOnlineRate-charts {
+      // height 300px;
+    }
+  }
+  .classAnalysisOverRate {
+    background: #fff;
+    box-shadow: 0 0 4px 0 #E9E9F2;
+    border-radius: 6px;
+    margin: 14px 0 0 0;
+    .classAnalysisOverRate-charts {
+      // height 447px;
+    }
+  }
+  .classAnalysis-result {
+    padding: 18px 10px;
+    margin: 10px 30px 0;
+    background: rgba(162, 175, 205, 0.2);
+    color: #5F6D91;
+    border-radius: 6px;
+    .classAnalysis-result-highlight {
+      font-size: 18px;
+      color: #4B70FF;
+    }
+  }
+  .classAnalysisCompairRate {
+    background: #fff;
+    box-shadow: 0 0 4px 0 #E9E9F2;
+    border-radius: 6px;
+    margin: 14px 0 0 0;
+    padding: 0 0 24px 0;
+    .classAnalysisCompairRate-charts {
+      &+.classAnalysisKindWrapper {
+        position: static;
+        text-align: right;
+        margin: 30px 49px 0 0;
+      }
+      // margin: 0 0 66px 0px;
+    }
+    .classAnalysisCompairRate-table {
+      padding: 0 30px;
+      margin: 14px 0 0 0;
+      .el-table {
+        border-radius: 6px 6px 0 6px;
+      }
+      .el-table th {
+        background: rgba(162, 175, 205, 0.2);
+        color: #383B57;
+      }
+      .el-table_1_column_1 {
+        background: rgba(162, 175, 205, 0.2);
+        color: #5F6D91;
+      }
+      .el-table_1_column_2 {
+        color: #FF8937;
+      }
+      .el-table td {
+        padding: 5px 0;
+      }
+      .el-table__body-wrapper {
+        color: #5F6D91;
+      }
+      .classAnalysisCompairRateHight {
+        color: #FF8937;
+      }
+    }
+  }
+  .classAnalysisWeakPoint {
+    background: #fff;
+    box-shadow: 0 0 4px 0 #E9E9F2;
+    border-radius: 6px;
+    margin: 14px 0 0 0;
+    padding: 0 0 24px 0;
+    .classAnalysisWeakPoint-header {
+      padding: 20px 30px 0;
+      .classAnalysisWeakPoint-header-title {
+        font-size: 18px;
+        color: #383B57;
+      }
+      .classAnalysisWeakPoint-header-tabs {
+        margin: 0 0 0 27px;
+        display: inline-block;
+        position: relative;
+        bottom: 4px;
+        .classAnalysisWeakPoint-header-tab {
+          cursor: pointer;
+          user-select none;
+          display: inline-block;
+          font-size: 12px;
+          color: #333;
+          border: 1px solid #CCCCCC;
+          padding: 8px 19px;
+          position relative;
+          right: 1px;
+          border-radius: 0 2px 2px 0;
+          &:first-child {
+            right 0;
+            z-index 1;
+            border-radius: 2px 0 0 2px;
+          }
+          &.active {
+            z-index 2;
+            color: #4B70FF;
+            border: 1px solid #4B70FF;
+          }
+        }
+      }
+    }
+    .classAnalysisWeakPoint-table {
+      padding: 20px 30px 0;
+      .el-table {
+        border-radius: 6px 6px 0 6px;
+      }
+      .el-table th {
+        background: rgba(162, 175, 205, 0.2);
+        color: #383B57;
+        text-align: center;
+      }
+      .el-table_2_column_5 {
+        background: rgba(162, 175, 205, 0.2);
+        color: #5F6D91;
+      }
+      .el-table_1_column_2 {
+        color: #FF8937;
+      }
+      .el-table td {
+        padding: 5px 0;
+      }
+      .el-table__body-wrapper {
+        color: #5F6D91;
+      }
+      .classAnalysisCompairRateHight {
+        color: #FF8937;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.histogramBody{
+    width:494px;
+    height:30px;
+    /* opacity: 0.2; */
+    border: 0.5px solid #A2AFCD;
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.histogramChoosed{
+    display: table-cell;
+    vertical-align: middle;
+    background: #FF8E2C;
+    border-radius: 4px 0 0 4px;
+    height: 30px;
+}
+.histogramChoose{
+    display: table-cell;
+    vertical-align: middle;
+    background: #4B70FF;
+    border-radius: 4px 0 0 4px;
+    height: 30px;
+}
+.message{
+    display: table-cell;
+    vertical-align: middle;
+    height: 30px;
+    color: #A2AFCD;
+    font-size: 11px;
+    padding-left: 7px;
+}
+.histogramMessage{
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 0 0 4px 4px;
+    display: inline-block;
+    line-height: 30px;
+    width: 60px;
+}

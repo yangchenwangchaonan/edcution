@@ -1,0 +1,121 @@
+.average_count {
+    overflow: hidden;
+    margin-top: 14px;
+    padding-left: 29.5px;
+    background: #fff;
+}
+.average_count .top {
+    margin: 20px 0;
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+.average_count .top span:first-child {
+    float: left;
+    font-size: 18px;
+    color: #383B57;
+    font-weight: bold;
+}
+.average_count .top i {
+    display: inline-block;
+    float: left;
+    margin-left: 454px;
+    margin-top: 4.5px;
+    width: 16px;
+    height: 16px;
+    background: #FF8937; 
+    border-radius: 50%;
+}
+.average_count .top span:nth-child(3) {
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #A2AFCD;
+}
+
+.average_count .main {
+    overflow: hidden;
+    overflow-y: auto;
+    margin-bottom: 30px;
+    /* width: 684px; */
+    /* height: 315px; */
+    width: 709px;
+    height: 323px;
+}
+.average_count .nav {
+    float: left;
+    width: 96px;
+    background: rgba(162,175,205,0.2);
+    border-radius: 6px 0 0 6px;
+}
+.average_count .nav li {
+    line-height: 39px;
+    text-align: center;
+    height: 39px;
+}
+.average_count .nav li:first-child {
+    line-height: 50px;
+    height: 50px;
+}
+
+.average_count .title {
+    overflow: hidden;
+    border-radius: 0 6px 0 0;
+}
+.average_count .title li {
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    width: 98px;
+    height: 50px;
+    background: rgba(162,175,205,0.2);
+}
+
+.average_count .content {
+    overflow: hidden
+}
+.average_count .content li {
+    float: left;
+    line-height: 39px;
+    text-align: center;
+    width: 97px;
+    height: 38px;
+    border-right: 1px solid #eceff5;
+    border-bottom: 1px solid #eceff5;
+}
+
+.average_count .all_count {
+    overflow: hidden;
+}
+.average_count .all_count li {
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    text-align: center;
+    width: 98px;
+    height: 25px;
+    font-size: 18px;
+    color: #383B57;
+}
+.average_count .all_count li:first-child {
+    width: 96px;
+    font-size: 14px;
+}
+
+  
+                        
+                
+                    
+                    
+                        
+                
+                    
+                    
+                        
+                
+                    
+                    
+                        
+                    
+                        

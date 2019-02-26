@@ -1,0 +1,16 @@
+html {
+   min-width: 1200px;
+   min-height: 750px;
+   background: #f2f4f6;
+}
+html,body {
+   scroll-behavior: smooth;
+}
+
+.container {
+   /* overflow: hidden; */
+   margin: 0 auto;
+   margin-bottom: 50px;
+   width: 1200px;
+   height: 100%;
+}

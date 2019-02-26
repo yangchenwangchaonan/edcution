@@ -1,0 +1,62 @@
+.subjectAnalysis-panel-one{
+    background: #ffffff;
+}
+.subjectAnalysis-panel-one-title{
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #383B57;
+    margin-top: 23px;
+    margin-left: 30px;
+
+}
+.subjectAnalysis-panel-one-description{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #5F6D91;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.echart-circle{
+    margin-top: 10px;
+    margin-left: -20px;
+    width:500px;
+    height:250px;
+}
+.subjectAnalysis-panel-one-chart{
+
+}
+.subjectAnalysis-panel-two{
+    background: #ffffff;
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #383B57;
+}
+.subjectAnalysis-panel-two-instability-students-situation{
+    margin-top: 21px;
+    margin-left: 31px;
+    overflow: hidden;
+}
+.subjectAnalysis-panel-two-instability-students{
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #383B57;
+    float: left;
+}
+.subjectAnalysis-panel-two-students{
+    display: table-cell;
+    height:32px;
+    vertical-align: middle;
+}
+.subjectAnalysis-panel-two-online-counts{
+    margin-left: 155px;
+}
+.subjectAnalysis-panel-two-description{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #5F6D91;
+    margin-top: 11px;
+    margin-left: 31px;
+}
+.subjectAnalysis-panel-two-chart{
+
+}

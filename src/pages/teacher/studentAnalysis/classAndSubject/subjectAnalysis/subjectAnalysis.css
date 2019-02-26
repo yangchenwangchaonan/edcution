@@ -1,0 +1,84 @@
+.subjectAnalysis-panel-one{
+    background: #ffffff;
+    overflow: hidden;
+    height: 313px;
+}
+.subjectAnalysis-panel-one-title{
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #383B57;
+    margin-top: 23px;
+    margin-left: 30px;
+
+}
+.subjectAnalysis-panel-one-description{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #5F6D91;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.echart-circle{
+    /* margin-top: 0px;
+    margin-left: 0px; */
+    width:744px;
+    height:250px;
+    margin-left: -166px;
+    float:left;
+}
+.echart-data-people{
+    margin-top: 15px;
+}
+.echart-data{
+    position: absolute;
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #383B57;
+    margin-top: 43px;
+    margin-left: 507px;
+}
+
+/* .subjectAnalysis-panel-one-chart{
+    width:744px;
+    height:250px;
+    margin-left: -166px;
+} */
+.subjectAnalysis-panel-two{
+    background: #ffffff;
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #383B57;
+    height: 415px;
+    margin-top: 14px;
+}
+.subjectAnalysis-panel-two-instability-students-situation{
+    padding-top: 16px;
+    padding-left: 31px;
+    overflow: hidden;
+}
+.subjectAnalysis-panel-two-instability-students{
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #383B57;
+    float: left;
+}
+.subjectAnalysis-panel-two-students{
+    display: table-cell;
+    height:32px;
+    vertical-align: middle;
+}
+.subjectAnalysis-panel-two-online-counts{
+    margin-left: 155px;
+}
+.subjectAnalysis-panel-two-description{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #5F6D91;
+    margin-top: 11px;
+    margin-left: 31px;
+}
+.subjectAnalysis-panel-two-chart{
+    margin-left: 32px;
+    margin-top: 10px;
+    width: 686px;
+}

@@ -1,0 +1,147 @@
+.course {
+    background: #fff;
+}
+.course .nav {
+    overflow: hidden;
+    border-bottom: 1px solid #EBEBEB;
+}
+.course .nav li {
+    float: left;
+    line-height: 49px;
+    margin-left: 56px;
+    font-size: 16px;
+    color: #383B57;
+    font-weight: bold;
+    cursor: pointer;
+}
+.course .nav li.active {
+    font-size: 18px;
+    color: #4B70FF; 
+    height: 45px;
+    border-bottom: 4px solid #4B70FF;
+}
+.course .nav li:nth-child(8n-7) {
+    margin-left: 30.5px;
+    margin-right: 2.5px;
+}
+
+.course .content {
+    overflow: hidden;
+}
+.course .content li {
+    float: left;
+    text-align: center;
+    height: 166px;
+    width: 178px;
+}
+.course .content li p:nth-child(1) {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #A2AFCD;
+    border-right: 1px dashed #A2AFCD;
+}
+.course .content li p:nth-child(2) {
+    padding-top: 11px;
+    font-size: 30px;
+    color: #000;
+    border-right: 1px dashed #A2AFCD;
+}
+.course .content li  p:nth-child(3) {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 6px 10.5px;
+    font-size: 12px;
+    border-radius: 100px;
+    background: rgba(162,175,205,0.2);
+    color: #5F6D91;
+}
+.course .content li:nth-child(4n) {
+    width: 192px;
+}
+.course .content li:nth-child(4n) p {
+    border: none;
+}
+.course .content li:nth-child(4n-3) {
+    width: 190px;
+}
+
+.course .count {
+    padding-left: 20px;
+    line-height: 41px;
+    border-top: 1px solid #EBEBEB;
+    height: 41px;
+    font-size: 12px;
+    color: #A2AFCD;
+}
+
+/* 锚点链接 */
+/* .anchor {
+    position: absolute;
+    left: 754px; 
+    top: 100px;
+    width: 138px;
+    border-left: 1px solid rgba(151,151,151, 0.2);
+}
+.anchor li {
+    position: relative;
+    margin-top: 14px;
+    margin-left: 19px;
+    line-height: 20px;
+    height: 20px;
+}
+.anchor li:first-child {
+    margin-top: 0;
+    margin-left: 9px;
+}
+.anchor li:first-child a {
+    color: #333333;
+}
+.anchor li:nth-child(2) {
+    margin-top: 10px;
+}
+.anchor li:last-child {
+    padding-bottom: 5px
+}
+.anchor li.active i {
+    display: block;
+}
+.anchor li.active a {
+    color: #4B70FF;
+}
+.anchor li i {
+    position: absolute;
+    left: -23.5px;
+    top: 5.5px;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #4B70FF; 
+    display: none;
+}
+.anchor li a {
+    color: #777777;
+} */
+
+
+            
+        
+            
+         
+            
+    
+        
+        
+            
+         
+                
+           
+                
+       
+           
+            
+                
+        
+                
+    
+        

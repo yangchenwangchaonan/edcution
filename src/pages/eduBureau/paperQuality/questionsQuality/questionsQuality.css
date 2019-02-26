@@ -1,0 +1,229 @@
+.el-tabs__item{
+    width:37px;
+    height:25px;
+}
+
+
+
+.el-tabs__content{
+
+}
+.questionsQuality{
+    width: 744px;
+    /* height: 590px; */
+}
+
+.topHead{
+    font-size:18px;
+    font-family: 'PingFangSC-Semibold';
+    padding-top: 20px;
+    margin-left:30px;
+    line-height:25px;
+    color:#383B57;
+}
+.answerCorrect{
+    margin-top:33px;
+}
+
+.specificAuestions{
+    margin-top: 10px;
+}
+
+.specificContent{
+    width:44px;
+    height:36px;
+    /* background: #4B70FF; */
+    padding:0;
+    border-radius: 6px;
+}
+
+.topContent{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.middle{
+    margin-top:20px;
+    border: 1px solid #EBEBEB;
+}
+.bottom{
+    
+}
+.outline{
+    margin-top:20px;
+    margin-left:30px;
+}
+.details{
+    margin-top: 22px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    width: 680px;
+}
+.options{
+
+  
+}
+.title{
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #5F6D91;
+    margin-top: 22px;
+}
+
+.title2{
+    margin-top:10px;
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #5F6D91;
+}
+
+.properties{
+    margin-top:13px;
+    margin-left:1px;
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    
+    color: #5F6D91;
+}
+.propertyMessage{
+    /* display: inline-block;
+    width: 42px; */
+}   
+.propertyValue{
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #002E00;
+    line-height: 20px;
+    margin-left: 10px;
+}
+.choose{
+    margin-top: 14px;
+    overflow: hidden;
+}
+.itemTitle{
+    float: left;
+    font-family: PingFangSC-Semibold;
+    font-size: 17px;
+    margin-left: 1px;
+    color: #5F6D91;
+}
+.itemValue{
+    margin-left: 33px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+}
+.answerSituation{
+    margin-top: 57px;
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #383B57;
+    letter-spacing: 0;
+}
+.classGrade{
+    margin-top: 13px;
+    font-family: PingFangSC-Semibold;
+    font-size: 12px;
+    color: #5F6D91;
+}
+.classMessage{
+
+}
+.classValue{
+    font-family: PingFangSC-Semibold;
+    font-size: 15px;
+    color: #002E00;
+    text-align: center;
+    line-height: 17px;
+    margin-left: 9px;
+}
+.answerLine{
+    width: 494px;
+    margin-top: 29px;
+    overflow: hidden;
+}
+.answer{
+    font-family: PingFangSC-Semibold;
+    font-size: 12px;
+    color: #5F6D91;
+    float: left;
+}
+.answerOthers{
+    text-align: right;
+    font-family: PingFangSC-Regular;
+    margin-top: 6px;
+    font-size: 12px;
+    color: #A2AFCD;
+}
+.choosed{
+    margin-top:10px;
+    font-family: PingFangSC-Medium;
+    font-size: 15px;
+    /* color: #FFFFFF; */
+}
+.choosedItem{
+    margin-top:10px;
+}
+.answerCorrect{
+    font-family: PingFangSC-Semibold;
+    font-size: 12px;
+    color: #5F6D91;
+    margin-top: 27px;
+}
+.answerBox{
+    margin-top:8px;
+    width:494px;
+    height:100px;
+    background: #ECEFF5;
+    border-radius: 6px;
+}
+.answerWord{
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #002E00;
+    text-align: center;
+    line-height: 17px;
+    margin-left: 10px;
+}
+.scoreAnnouncement{
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #5F6D91;
+    margin-top: 15px;
+}
+.scoreBox{
+    width:684px;
+    height:140px;
+    background: #ECEFF5;
+    border-radius: 6px;
+    margin-top:10px;
+}
+.chooses{
+    margin-top:10px;
+}
+.answerSituation2{
+    margin-top: 27px;
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #383B57;
+    letter-spacing: 0;
+}
+.itemSituation{
+    margin-top: 13px;
+    margin-left: 1px;
+}
+.answerLine2{
+    width: 494px;
+    margin-top: 22px;
+    margin-left: 2px;
+    overflow: hidden;
+}
+.answerOthers2{
+    text-align: right;
+    font-family: PingFangSC-Regular;
+    margin-top: 0px;
+    font-size: 12px;
+    color: #A2AFCD;
+}

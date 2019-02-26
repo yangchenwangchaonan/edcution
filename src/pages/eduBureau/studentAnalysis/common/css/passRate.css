@@ -1,0 +1,193 @@
+.pass_rate {
+    overflow: hidden;
+    margin-top: 14px;
+    padding-left: 29.5px;
+    background: #fff;
+}
+.pass_rate .top1 {
+    margin: 20px 0;
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+.pass_rate .top1 span:first-child {
+    float: left;
+    font-size: 18px;
+    color: #383B57;
+    font-weight: bold;
+}
+.pass_rate .top1 i {
+    display: inline-block;
+    float: left;
+    margin-left: 454px;
+    margin-top: 4.5px;
+    width: 16px;
+    height: 16px;
+    background: #FF8937; 
+    border-radius: 50%;
+}
+.pass_rate .top1 span:nth-child(3) {
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #A2AFCD;
+}
+
+/* 头部样式复杂 */
+.pass_rate .top2 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.pass_rate .top2 .title_nav {
+    overflow: hidden;
+    line-height: 34px;
+    height: 34px;
+}
+.pass_rate .top2 .title_nav .title {
+    float: left;
+    font-size: 18px;
+    color: #383B57;
+    font-weight: bold;
+}
+.pass_rate .top2 .title_nav ul {
+    overflow: hidden;
+    float: left;
+    margin-left: 29px;
+}
+.pass_rate .top2 .title_nav ul li {
+    float: left;
+    position: relative;
+    line-height: 17px;
+    height: 17px;
+    padding: 8px 20px 7px 20px;
+    border: 1px solid #ccc; 
+    margin-left: -1px;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+.pass_rate .top2 .title_nav ul li:first-child {
+    margin-left: 0;
+    border-radius: 2px 0 0 2px;
+}
+.pass_rate .top2 .title_nav ul li:last-child {
+    border-radius: 2px 0 0 2px;
+}
+.pass_rate .top2 .title_nav ul li.active {
+    z-index: 10;
+    border-color: #4B70FF;
+    color: #4B70FF;
+}
+.pass_rate .top2 p {
+    clear: left;
+    margin-top: 5px;
+    line-height: 20px;
+    width: 687px;
+    font-size: 14px;
+    color: #5F6D91;
+}
+
+.pass_rate .main {
+    overflow: hidden;
+    overflow-y: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    /* width: 684px; */
+    /* height: 315px; */
+    width: 709px;
+    height: 323px;
+}
+.pass_rate .main2 {
+    margin-bottom: 0;
+}
+.pass_rate .nav {
+    float: left;
+    width: 96px;
+    background: rgba(162,175,205,0.2);
+    border-radius: 6px 0 0 6px;
+}
+.pass_rate .nav li {
+    line-height: 39px;
+    text-align: center;
+    height: 39px;
+}
+.pass_rate .nav li:first-child {
+    line-height: 50px;
+    height: 50px;
+}
+
+.pass_rate .title {
+    overflow: hidden;
+    border-radius: 0 6px 0 0;
+}
+.pass_rate .title li {
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    width: 98px;
+    height: 50px;
+    background: rgba(162,175,205,0.2);
+}
+.pass_rate .title li:last-child {
+    width: 294px;
+}
+
+.pass_rate .content {
+    overflow: hidden
+}
+.pass_rate .content li {
+    float: left;
+    line-height: 39px;
+    text-align: center;
+    width: 97px;
+    height: 38px;
+    border-right: 1px solid #eceff5;
+    border-bottom: 1px solid #eceff5;
+}
+.pass_rate .content li:nth-child(4n) {
+    width: 294px;
+}
+
+.pass_rate .all_count {
+    overflow: hidden;
+}
+.pass_rate .all_count li {
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    text-align: center;
+    width: 98px;
+    height: 25px;
+    font-size: 18px;
+    color: #383B57;
+}
+.pass_rate .all_count li:first-child {
+    width: 96px;
+    font-size: 14px;
+}
+
+.pass_rate .common {
+    margin: 14px 0;
+    font-size: 14px;
+    color: #383B57;
+    font-weight: bold;
+}
+
+  
+                        
+                
+                    
+                    
+                        
+                
+                    
+                    
+                        
+                
+                    
+                    
+                        
+                    
+                        

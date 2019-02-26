@@ -1,0 +1,37 @@
+.subjectiveBody{
+    width: 438px;
+    height: 30px;
+    /* opacity: 0.2; */
+    border: 0.5px solid #A2AFCD;
+    display: inline-block;
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 28px;
+}
+.subjectiveChoosed{
+    display: table-cell;
+    vertical-align: middle;
+    background: #FF8E2C;
+    border-radius: 4px 0 0 4px;
+    height: 30px;
+}
+.subjectiveChoose{
+    display: table-cell;
+    vertical-align: middle;
+    background: #4B70FF;
+    border-radius: 4px 0 0 4px;
+    height: 30px;
+}
+.subjectiveMessage{
+    height: 30px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.subjectiveGrade{
+    height:30px;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+}
